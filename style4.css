@@ -1,0 +1,35 @@
+body{
+    background-image: url('img/logo\ \(7\).jpg');
+    background-size: cover;
+    background-position: center;
+}
+.pp{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    backdrop-filter: blur(15px);
+    transform: translate(70%,50%);
+    width: 550px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+     
+}
+.pp:hover{
+    box-shadow: 0 0 30px white;
+}
+input {
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    transform: translate(500%,500%);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+}
+input:hover{
+    box-shadow: 0 0 30px white;
+}
